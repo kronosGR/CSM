@@ -1,0 +1,355 @@
+/*----- index.html */
+/*--------- header */
+header{
+    width: 100%;
+    height: 35px;
+    background-color: var(--purple-dark);
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+.current{
+    border-bottom: white 2px solid;
+}
+
+#logo-container{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 27px;
+    height: 27px;
+    background: url('/images/logo.jpg');
+    background-size: 27px 27px;
+}
+
+#logo:hover{
+    background: url('/images/logo-hovered.jpg');    
+    background-size: 27px 27px;
+}
+
+#hamb-chk{
+    display: none;
+}
+
+#hamb-chk:checked ~ nav{
+    background-color: var(--purple);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+
+#hamb-icon{
+    width: 30px;
+}
+
+nav{
+    min-width: var(--min-width);
+    display: none;
+}
+
+#hm-home{
+    background: url(/images/mm-home.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+}
+
+#hm-home:hover{
+    background: url(/images/mm-home-hv.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+    background-color: white;
+    color: var(--purple)
+}
+
+#hm-explore{
+    background: url(/images/mm-explore.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+}
+
+#hm-explore:hover{
+    background: url(/images/mm-explore-hv.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+    background-color: white;
+    color: var(--purple)
+}
+
+#hm-exhibitions{
+    background: url(/images/mm-exhibitions.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+}
+
+#hm-exhibitions:hover{
+    background: url(/images/mm-exhibitions-hv.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+    background-color: white;
+    color: var(--purple)
+}
+
+#hm-events{
+    background: url(/images/mm-special-events.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+}
+
+#hm-events:hover{
+    background: url(/images/mm-special-events-hv.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+    background-color: white;
+    color: var(--purple)
+}
+
+#hm-get-involved{
+    background: url(/images/mm-get-involved.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+}
+
+#hm-get-involved:hover{
+    background: url(/images/mm-get-involved-hv.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+    background-color: white;
+    color: var(--purple)
+}
+
+#hm-visit-us{
+    background: url(/images/mm-visit-us.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+}
+
+#hm-visit-us:hover{
+    background: url(/images/mm-visit-us-hv.png) no-repeat 5px center;
+    background-size: 22px;
+    height: 22px;
+    background-color: white;
+    color: var(--purple)
+}
+
+nav ul{    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    flex-basis: 50%;
+    padding: 2px;
+}
+
+nav a{    
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: var(--purple);
+}
+
+
+/*------------ main */
+.title{
+    background-color: var(--purple-dark);
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.title-container{
+    border-bottom: var(--purple-dark) 3px solid;
+    margin-bottom: 15px;
+}
+
+.intro img{
+    margin: 0 auto;
+    width: 90%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.intro-container{
+    display: block;
+    margin: 0 auto;
+    background-color: var(--purple);
+    width: 90%;
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.services{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services--span{
+    color: inherit;
+    font-size: var(--fs-hd-btn);
+    padding: 10px;    
+}
+
+.service-item{ 
+    flex-basis: 40%;
+    max-width: 160px;
+    height: 152px;
+    border: var(--purple-dark) 3px solid;
+    margin-left: 20px;
+    color: var(--purple-dark);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.service-item:hover {
+    color: white;
+    border: white 3px solid;
+}
+
+#ser-explore{
+    background: url(/images/explore.png) no-repeat center, white;
+    background-size: 73px;   
+}
+
+#ser-explore:hover{
+    background: url(/images/explore-hv.png) no-repeat center, var(--purple);
+    background-size: 73px;
+}
+
+#ser-exhibitions{
+    background: url(/images/exhibitions.png) no-repeat center, white;
+    background-size: 73px;   
+}
+
+#ser-exhibitions:hover{
+    background: url(/images/exhibitions-hv.png) no-repeat center, var(--purple);
+    background-size: 73px;
+}
+
+#ser-events{
+    background: url(/images/special-events.png) no-repeat center, white;
+    background-size: 73px;   
+}
+
+#ser-events:hover{
+    background: url(/images/special-events-hv.png) no-repeat center, var(--purple);
+    background-size: 73px;
+}
+
+#ser-get-involved{
+    background: url(/images/get-involved.png) no-repeat center, white;
+    background-size: 73px;   
+}
+
+#ser-get-involved:hover{
+    background: url(/images/get-involved-hv.png) no-repeat center, var(--purple);
+    background-size: 73px;
+}
+
+#ser-visit-us{
+    background: url(/images/visit-us.png) no-repeat center, white;
+    background-size: 45px;   
+}
+
+#ser-visit-us:hover{
+    background: url(/images/visit-us-hv.png) no-repeat center, var(--purple);
+    background-size: 45px;
+}
+
+/*------ Footer */
+footer{
+    background-color: var(--purple-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+footer li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+footer ul {
+    margin-bottom: 15px;
+}
+
+footer a{    
+    font-style: italic;
+    font-size: var(--fs-link);
+    color: white;
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 5px 10px 5px 45px;
+}
+
+#footer-contact{
+    background: url(/images/email.png) no-repeat 10px center;
+    background-size: 30px;
+}
+
+#footer-contact:hover{
+    background: url(/images/email-hv.png) no-repeat 10px center;
+    background-size: 30px;
+    color: var(--purple-dark);
+    background-color: white;
+}
+
+#footer-youtube{
+    background: url(/images/youtube.png) no-repeat 10px center;
+    background-size: 30px;
+}
+
+#footer-youtube:hover{
+    background: url(/images/youtube-hv.png) no-repeat 10px center;
+    background-size: 30px;
+    color: var(--purple-dark);
+    background-color: white;
+}
+
+#footer-instagram{
+    background: url(/images/instagram.png) no-repeat 10px center;
+    background-size: 30px;
+}
+
+#footer-instagram:hover{
+    background: url(/images/instagram-hv.png) no-repeat 10px center;
+    background-size: 30px;
+    color: var(--purple-dark);
+    background-color: white;
+}
+
+#footer-facebook{
+    background: url(/images/facebook.png) no-repeat 10px center;
+    background-size: 30px;
+}
+
+#footer-facebook:hover{
+    background: url(/images/facebook-hv.png) no-repeat 10px center;
+    background-size: 30px;
+    color: var(--purple-dark);
+    background-color: white;
+}
+
+
+
+
+
+
+

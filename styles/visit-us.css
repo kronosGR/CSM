@@ -1,0 +1,12 @@
+.intro table{
+    margin: 0 auto;
+}
+
+.intro table td:first-child{
+    text-align: left;
+    width: 100px;
+}
+
+.intro table td:last-child{
+    text-align: right;
+}

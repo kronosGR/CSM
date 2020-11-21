@@ -1,0 +1,37 @@
+html {    
+    box-sizing: border-box;
+    min-width: var(--min-width);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; /* SemiBold */
+    background-color: #000000;
+    color: white;
+    line-height: 1.2rem;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; /* 800 */
+}
+
+h1{
+    font-size: var(--fs-h1);
+}
+
+h2{
+    font-size: var(--fs-h2);
+}
+
+a{
+    text-decoration: none;
+}
+
