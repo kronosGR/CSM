@@ -1,0 +1,36 @@
+form{
+    width: 80%;
+    margin: 0 auto 35px auto;
+    background-color: var(--gray);
+    color: black;
+    padding: 25px 20px;
+    border: var(--purple-dark) 4px solid;
+
+}
+
+form label{
+    display: block;
+    margin: 2px 0;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+form textarea{
+    width: 100%;
+}
+
+form button{
+    display: block;
+    margin: 35px auto;
+}
+
+form p{
+    display: block;
+    text-align: center;
+    color: var(--purple);
+    margin-top: -30px;
+}

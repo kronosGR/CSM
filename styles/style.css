@@ -6,4 +6,134 @@
 @import url('variables.css');
 @import url('main.css');
 @import url('index.css');
-@import url('visit-us.css')
+@import url('visit-us.css');
+
+@media (min-width: 650px){
+
+    .intro{
+        flex-direction: row;
+        background-color: var(--purple);
+        padding: 15px;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+
+    .intro:nth-of-type(4n){
+        flex-direction: row-reverse;
+        background-color: var(--purple);
+        padding: 15px;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+
+    .intro img{
+        max-height: 200px;
+        width: auto;
+        height: auto;
+    }
+
+    .intro .intro-container{
+        padding-left: 20px;
+    }
+
+    .intro-container{
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (min-width: 860px){    
+    :root{
+        font-size: 16px;
+    }
+
+    .bigger-font-size{
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+}
+
+@media (min-width: 960px){
+    #hamb-icon{
+        display: none;
+    }
+
+    header{
+        flex-direction: row;
+        position: relative;
+        height: 60px;
+        margin: 0 auto 65px auto;
+    }
+
+    #logo {
+        width: 54px;
+        height: 54px;
+        background: url(/images/logo.jpg);
+        background-size: 54px 54px;
+    }
+
+    #logo:hover {
+        width: 54px;
+        height: 54px;
+        background: url(/images/logo-hovered.jpg);
+        background-size: 54px 54px;
+    }
+
+    nav{
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0%;
+        width: 100%;
+        background-color: var(--purple);
+        border: 0;
+    }
+
+    nav ul{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    nav li{
+        flex-basis: auto;
+    }
+
+    nav a{        
+        padding: 0px 30px;
+    }
+
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .intro
+    {
+        width: 95%;
+        margin: 15px auto 35px auto;
+    }
+
+    footer ul li{
+        float: left;
+    }
+}
+
+@media (min-width: 1500px){
+    header{
+        width: 90%;
+        max-width: 1370px;
+    }
+    
+    main {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1170px;
+    }
+
+    footer{
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1370px;
+    }
+}

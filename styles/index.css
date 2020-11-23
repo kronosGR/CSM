@@ -4,7 +4,7 @@ header{
     width: 100%;
     height: 35px;
     background-color: var(--purple-dark);
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,6 +18,11 @@ header{
 #logo-container{
     display: flex;
     align-items: center;
+}
+
+#logo-container h1{
+    margin-left: 5px;
+
 }
 
 #logo{
@@ -137,10 +142,16 @@ nav{
     color: var(--purple)
 }
 
+nav{    
+    border: var(--purple-dark) 2px solid;
+    box-shadow: 0px 10px rgba(0 ,0, 0, .5);
+}
+
 nav ul{    
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin: 7px 0;
 }
 
 nav li {
@@ -173,6 +184,11 @@ nav a:hover{
     margin-bottom: 15px;
 }
 
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+
 .intro img{
     margin: 0 auto;
     width: 90%;
@@ -196,7 +212,7 @@ nav a:hover{
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 35px auto;
 }
 
 .services--span{
@@ -224,52 +240,52 @@ nav a:hover{
 }
 
 #ser-explore{
-    background: url(/images/explore.png) no-repeat center, white;
+    background: url(/images/explore.png) no-repeat center 10px, white;
     background-size: 73px;   
 }
 
 #ser-explore:hover{
-    background: url(/images/explore-hv.png) no-repeat center, var(--purple);
+    background: url(/images/explore-hv.png) no-repeat center 10px, var(--purple);
     background-size: 73px;
 }
 
 #ser-exhibitions{
-    background: url(/images/exhibitions.png) no-repeat center, white;
+    background: url(/images/exhibitions.png) no-repeat center 20px, white;
     background-size: 73px;   
 }
 
 #ser-exhibitions:hover{
-    background: url(/images/exhibitions-hv.png) no-repeat center, var(--purple);
+    background: url(/images/exhibitions-hv.png) no-repeat center 20px, var(--purple);
     background-size: 73px;
 }
 
 #ser-events{
-    background: url(/images/special-events.png) no-repeat center, white;
+    background: url(/images/special-events.png) no-repeat center 10px, white;
     background-size: 73px;   
 }
 
 #ser-events:hover{
-    background: url(/images/special-events-hv.png) no-repeat center, var(--purple);
+    background: url(/images/special-events-hv.png) no-repeat center 10px, var(--purple);
     background-size: 73px;
 }
 
 #ser-get-involved{
-    background: url(/images/get-involved.png) no-repeat center, white;
+    background: url(/images/get-involved.png) no-repeat center 10px, white;
     background-size: 73px;   
 }
 
 #ser-get-involved:hover{
-    background: url(/images/get-involved-hv.png) no-repeat center, var(--purple);
+    background: url(/images/get-involved-hv.png) no-repeat center 10px, var(--purple);
     background-size: 73px;
 }
 
 #ser-visit-us{
-    background: url(/images/visit-us.png) no-repeat center, white;
+    background: url(/images/visit-us.png) no-repeat center 10px, white;
     background-size: 45px;   
 }
 
 #ser-visit-us:hover{
-    background: url(/images/visit-us-hv.png) no-repeat center, var(--purple);
+    background: url(/images/visit-us-hv.png) no-repeat center 10px, var(--purple);
     background-size: 45px;
 }
 
@@ -282,6 +298,9 @@ footer{
     padding: 20px;
 }
 
+footer > div {
+    text-align: center;
+}
 footer li {
     list-style: none;
     margin-bottom: 10px;

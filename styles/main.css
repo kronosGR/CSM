@@ -35,3 +35,20 @@ a{
     text-decoration: none;
 }
 
+.cta{
+    background-color: var(--purple);
+    color:white;
+    border: var(--purple-dark) 2px solid;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: var(--fs-hd-btn);
+}
+
+.cta:hover{
+    background-color: white;
+    color: var(--purple);
+    border: var(--purple) 2px solid;
+}
+
