@@ -52,3 +52,8 @@ a{
     border: var(--purple) 2px solid;
 }
 
+.bigger-font-size{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
