@@ -180,7 +180,7 @@ nav a:hover{
 .title{
     background-color: var(--purple-dark);
     display: inline-block;
-    padding: 5px 10px;
+    padding: 6px 10px;
 }
 
 .title-container{
