@@ -197,6 +197,7 @@ nav a:hover{
     margin: 0 auto;
     display: block;
     margin-bottom: 15px;
+    max-width: 375px;
 }
 
 .intro-container{
