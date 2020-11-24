@@ -249,47 +249,47 @@ nav a:hover{
 }
 
 #ser-explore:hover{
-    background: url(/images/explore-hv.png) no-repeat center 10px, var(--purple);
+    background: var(--purple) url(/images/explore-hv.png) no-repeat center 10px;
     background-size: 73px;
 }
 
 #ser-exhibitions{
-    background: url(/images/exhibitions.png) no-repeat center 20px, white;
+    background: white url(/images/exhibitions.png) no-repeat center 20px;
     background-size: 73px;   
 }
 
 #ser-exhibitions:hover{
-    background: url(/images/exhibitions-hv.png) no-repeat center 20px, var(--purple);
+    background: var(--purple) url(/images/exhibitions-hv.png) no-repeat center 20px;
     background-size: 73px;
 }
 
 #ser-events{
-    background: url(/images/special-events.png) no-repeat center 10px, white;
+    background: white url(/images/special-events.png) no-repeat center 10px;
     background-size: 73px;   
 }
 
 #ser-events:hover{
-    background: url(/images/special-events-hv.png) no-repeat center 10px, var(--purple);
+    background: var(--purple) url(/images/special-events-hv.png) no-repeat center 10px;
     background-size: 73px;
 }
 
 #ser-get-involved{
-    background: url(/images/get-involved.png) no-repeat center 10px, white;
+    background: white url(/images/get-involved.png) no-repeat center 10px;
     background-size: 73px;   
 }
 
 #ser-get-involved:hover{
-    background: url(/images/get-involved-hv.png) no-repeat center 10px, var(--purple);
+    background: var(--purple) url(/images/get-involved-hv.png) no-repeat center 10px;
     background-size: 73px;
 }
 
 #ser-visit-us{
-    background: url(/images/visit-us.png) no-repeat center 10px, white;
+    background: white url(/images/visit-us.png) no-repeat center 10px;
     background-size: 45px;   
 }
 
 #ser-visit-us:hover{
-    background: url(/images/visit-us-hv.png) no-repeat center 10px, var(--purple);
+    background:  var(--purple) url(/images/visit-us-hv.png) no-repeat center 10px;
     background-size: 45px;
 }
 
