@@ -1,7 +1,8 @@
 # CSM
 
-Community Science Museum Website source code
 ![CSM logo](/images/logo.jpg)
+
+Community Science Museum Website source code
 
 ## Links
 
