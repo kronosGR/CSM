@@ -3,7 +3,7 @@
 header{
     width: 100%;
     height: 35px;
-    background-color: var(--purple-dark);
+    background-color: var(--purple);
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ header{
 }
 
 #hamb-chk:checked ~ nav{
-    background-color: var(--purple);
+    background-color: var(--purple-dark);
     position: absolute;
     top: 35px;
     left: 0;
@@ -146,7 +146,7 @@ nav{
 }
 
 nav{    
-    border: var(--purple-dark) 2px solid;
+    border: var(--purple) 2px solid;
     box-shadow: 0px 10px rgba(0 ,0, 0, .5);
 }
 
@@ -295,7 +295,7 @@ nav a:hover{
 
 /*------ Footer */
 footer{
-    background-color: var(--purple-dark);
+    background-color: var(--purple);
     display: flex;
     flex-direction: column;
     align-items: center;

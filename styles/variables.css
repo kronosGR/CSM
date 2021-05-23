@@ -1,10 +1,10 @@
 /* Variables */
 :root{
-    font-size: 14px;
+    font-size: 17px;
 
     --gray: #dddddd;
-    --purple: #92349e;
-    --purple-dark: #65306b;
+    --purple: #65306b;
+    --purple-dark: #92349e;
 
     --fs-h1: 1.6rem;
     --fs-h2: 1.3rem;
