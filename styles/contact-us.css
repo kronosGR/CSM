@@ -26,6 +26,7 @@ form textarea{
 form button{
     display: block;
     margin: 35px auto;
+    cursor: pointer;
 }
 
 form button:disabled{
