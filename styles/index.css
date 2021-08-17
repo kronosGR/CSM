@@ -33,7 +33,7 @@ header{
 }
 
 #logo:hover{
-    background: url('/images/logo-hovered.jpg');    
+    background: url('/images/logo-hovered.jpg');
     background-size: 27px 27px;
 }
 

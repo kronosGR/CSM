@@ -10,7 +10,7 @@ let usernameReady = false;
 let emailReady = false;
 let messageReady = false;
 const regexEmail = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-const API_CONTACT = "https://kronos.kandz.me/wp/wp-json/contact-form-7/v1/contact-forms/5/feedback";
+const API_CONTACT = "https://kronosgr.net/wp/wp-json/contact-form-7/v1/contact-forms/5/feedback";
 
 button.disabled = true;
 
